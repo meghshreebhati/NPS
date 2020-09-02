@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logi_back"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="#39000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome !"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"/>
+            <EditText
+                android:id="@+id/edtNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="10dp"
+                android:imeOptions="actionDone"
+                android:hint="Mobile Number"
+                android:drawableEnd="@drawable/ic_call_white_24dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:digits="1234567890"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="13sp"/>
+            <EditText
+                android:id="@+id/edtOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:padding="10dp"
+                android:hint="Enter OTP"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:digits="1234567890"
+                android:maxLength="6"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="13sp"/>
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Next"
+                android:background="@drawable/round_corner_with_bkg_color"
+                android:textSize="13sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Login"
+                android:visibility="gone"
+                android:background="@drawable/round_corner_with_bkg_color"
+                android:textSize="13sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
