@@ -10,7 +10,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.15"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
@@ -50,7 +50,7 @@
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.8"
+        android:layout_weight="1.85"
         android:orientation="vertical">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -91,7 +91,7 @@
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.8"
+        android:layout_weight="1.85"
         android:layout_margin="20dp"
         android:orientation="vertical">
 
